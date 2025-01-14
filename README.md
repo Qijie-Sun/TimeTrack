@@ -13,7 +13,7 @@ This aims to help students organize their tasks and monitor their progress effec
 - Time Blocks: Allocate blocks of time to focus on specific tasks.
 
 ## Architecture
-![Architecture](https://github.com/CS222-UIUC/main-project-timetrack/blob/main/frontend/public/diagram.png?raw=true)
+![Architecture](https://github.com/Qijie-Sun/TimeTrack/blob/main/frontend/public/diagram.png?raw=true)
 
 TimeTrack is built using a modular and scalable architecture that ensures smooth integration of components.
 
