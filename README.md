@@ -1,15 +1,4 @@
 # TimeTrack
-TimeTrack is a platform designed to improve student productivity by providing a simple and
-intuitive method for students to track tasks. With busy schedules, many students struggle with
-managing their daily and weekly tasks, which leads to stress and forgotten tasks. TimeTrack
-offers tools like tracking assignments that correlate to different classes on a calendar style UI.
-This aims to help students organize their tasks and monitor their progress effectively.
-
----
-
-This project is currently in early development.
-
-# TimeTrack
 TimeTrack is a platform designed to improve productivity by providing a simple and
 intuitive method for students to track tasks. With busy schedules, many students struggle with
 managing their daily and weekly tasks, which leads to stress and forgotten tasks. TimeTrack
