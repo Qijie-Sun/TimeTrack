@@ -7,13 +7,17 @@ This aims to help students organize their tasks and monitor their progress effec
 
 ---
 ## Features
+![DefaultView](https://github.com/Qijie-Sun/TimeTrack/blob/main/frontend/public/DemoDefault.png)
+
+![CleanView](https://github.com/Qijie-Sun/TimeTrack/blob/main/frontend/public/DemoClean.png)
+
 - Personalized Calendar: Set and view tasks, classes, and events in a weekly calendar format. Tasks/Classes can be easily rearranged, deleted, or updated.
 - Course Management: Add courses for the current semester, and the time each course occurs in the day.
 - Tasks Management: Users have the option to easily create, delete and rearrange tasks as needed.
 - Time Blocks: Allocate blocks of time to focus on specific tasks.
 
 ## Architecture
-![Architecture](https://github.com/Qijie-Sun/TimeTrack/blob/main/frontend/public/diagram.png?raw=true)
+![Architecture](https://github.com/Qijie-Sun/TimeTrack/blob/main/frontend/public/diagram.png)
 
 TimeTrack is built using a modular and scalable architecture that ensures smooth integration of components.
 
@@ -88,5 +92,5 @@ Follow these steps to set up and run TimeTrack:
 
 ## Potential Updates
 - Mobile support
-- Improved security
+- Better security
 - UI upgrades
