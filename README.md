@@ -44,7 +44,7 @@ TimeTrack is built using a modular and scalable architecture that ensures smooth
 Follow these steps to set up and run TimeTrack:
 1. Clone the Repository:
     ```
-    git clone https://github.com/CS222-UIUC/main-project-timetrack.git
+    git clone https://github.com/Qijie-Sun/TimeTrack.git
     cd main-project-timetrack
     ```
 
@@ -67,10 +67,6 @@ Follow these steps to set up and run TimeTrack:
     Add the following variables:
     ```
     MONGO_URI= mongodb://localhost:27017/timetrack
-    ```
-    For production, replace it with:
-    ```
-    MONGO_URI= mongodb+srv://frome4:Diamantito2@cluster0.xatug.mongodb.net/myDatabase?retryWrites=true&w=majority&appName=Cluster0
     ```
 
 6. Start the Application:
