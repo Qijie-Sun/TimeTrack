@@ -37,7 +37,7 @@ TimeTrack is built using a modular and scalable architecture that ensures smooth
 - Testing: Database queries are tested using Mongoose.
 
 **API Integration**
-- FullCalendar: Synchronizes calendar events across the frontend and backend.
+- FullCalendar/Restful API: Synchronizes calendar events across the frontend and backend.
 
 ## Installation
 
