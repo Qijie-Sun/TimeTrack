@@ -11,7 +11,7 @@ This aims to help students organize their tasks and monitor their progress effec
 
 ![CleanView](https://github.com/Qijie-Sun/TimeTrack/blob/main/frontend/public/DemoClean.png)
 
-- Personalized Calendar: Set and view tasks, classes, and events in a weekly calendar format. Tasks/Classes can be easily rearranged, deleted, or updated.
+- Personalized Calendar: Set and view tasks, classes, and events in a weekly calendar format. Tasks/classes can be easily rearranged, deleted, or updated.
 - Course Management: Add courses for the current semester, and the time each course occurs in the day.
 - Tasks Management: Users have the option to easily create, delete and rearrange tasks as needed.
 - Time Blocks: Allocate blocks of time to focus on specific tasks.
@@ -24,12 +24,12 @@ TimeTrack is built using a modular and scalable architecture that ensures smooth
 **Frontend**
 - Role: Provides a user-friendly interface for task and event management.
 - Technology: React.js, styled with CSS and integrated with the FullCalendar component.
-- Testing: Unit tests using Jest and React Testing Library.
+- Testing: Unit tests using Jest and React Testing Library, static tests using ESLint, formatting tests using Prettier.
 
 **Backend**
 - Role: Manages user data, processes requests, and serves data to the frontend.
 - Technology: Node.js with Express.js.
-- Testing: Backend operations are tested with Mocha and Chai.
+- Testing: Unit and integration tests using React Testing Library.
 
 **Database**
 - Role: Stores user information, such as courses, tasks, and events.
