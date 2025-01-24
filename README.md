@@ -88,5 +88,5 @@ Follow these steps to set up and run TimeTrack:
 
 ## Potential Updates
 - Mobile support
-- Better security
-- UI upgrades
+- Better security/2FA support
+- UI upgrades including dark mode
