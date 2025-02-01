@@ -12,8 +12,8 @@ This aims to help students organize their tasks and monitor their progress effec
 ![CleanView](https://github.com/Qijie-Sun/TimeTrack/blob/main/frontend/public/DemoClean.png)
 
 - Personalized Calendar: Set and view tasks, classes, and events in a weekly calendar format. Tasks/classes can be easily rearranged, deleted, or updated.
-- Course Management: Add courses for the current semester, and the time each course occurs in the day.
-- Tasks Management: Users have the option to easily create, delete and rearrange tasks as needed.
+- Course Management: Add courses for the current semester and the time each course occurs in the day/week.
+- Task Management: Create, delete and rearrange tasks as needed.
 - Time Blocks: Allocate blocks of time to focus on specific tasks.
 
 ## Architecture
