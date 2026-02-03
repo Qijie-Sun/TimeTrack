@@ -174,7 +174,6 @@ function Website() {
                             ...styles.calendarContainer,
                             width: isMenuOpen ? "80%" : "100%",
                             marginLeft: isMenuOpen ? "22%" : "0",
-                            transition: "width 0.2s ease",
                         }}
                     >
                         <Calendar 
