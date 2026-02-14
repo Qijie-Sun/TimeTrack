@@ -6,7 +6,7 @@ import interactionPlugin from "@fullcalendar/interaction";
 import { Draggable } from "@fullcalendar/interaction";
 import PropTypes from "prop-types";
 
-function Calendar({ assignments, setAssignments, handleDeleteFromCalendar, courses }) {
+function Calendar({ assignments, setAssignments, handleDeleteFromCalendar, courses, setCurrentWeekStart }) {
     // Handles combined events
     const [calendarEvents, setCalendarEvents] = useState([]);
 
@@ -74,13 +74,15 @@ function Calendar({ assignments, setAssignments, handleDeleteFromCalendar, cours
         <div>
             <Fullcalendar
                 plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
-
+                
                 initialView={"timeGridWeek"}
                 headerToolbar={{
                     center: "prev,next,today",
                     end: "dayGridMonth,timeGridWeek",
                 }}
                 height={"auto"}
+
+                datesSet={(info) => setCurrentWeekStart(info.start)}
 
                 nowIndicator={true}
                 allDaySlot={false}
